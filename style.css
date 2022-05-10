@@ -7,6 +7,7 @@
     margin: 0;   
     box-sizing: border-box;   
     -webkit-font-smoothing: antialiased;
+    
     }
     
     body 
@@ -14,6 +15,7 @@
       width:100%;
       height:100%;
       font-family: "DIN";
+    
     }
   
       .container 
@@ -32,6 +34,7 @@
         {   
            display: flex;    
            margin-left: 90px;
+           margin-top: 10px;
           }
          
           .nav-wrapper ul.nav-list 
@@ -48,6 +51,7 @@
                 float: right;
                  position: relative;
                  font-size: 17px;
+                 margin-top: 20px;
             }
             .nav-wrapper ul.nav-list li a
              {    
@@ -71,46 +75,42 @@ video{
     top:0;
     height:auto;
 }   
-.container1{
-  background-color: #D1E3EA;
+.slide1{
   width:100%;
   height:90vh;
-  padding-top: 120px;
+  padding-top: 150px;
 }
-
 .heading h2{
-padding-top:120px;
-margin-left: 130px;
-font-family: "DIN-BOLD"; 
-font-size: 35px;
+  font-size: 40px;
+  margin-top: -300px;
+  margin-left: 90px;
+  font-family: "DIN";
+} 
+.heading h4{
+  margin-left: 90px;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "DIN";
 }
-h4{
-  padding-top:10px;
-  margin-left: 130px;
-  font-family: "DIN-BOLD"; 
-  font-size: 25px;
-}
-p{
-  color:#0B0C0B;
-  padding-top:10px;
-  margin-left: 130px;
-  font-family: "DIN-LIGHT";
+ p{
+  margin-left: 90px;
   font-size: 20px;
+  color:#34383A;
+  font-family: "DIN";
 }
-
 .background{
   background-color:#7A95B3;
   width:100%;
-  height:900px;
-
+  height:970px;
+  
 }
 .about{
   width:1000px;
-  height:50vh;
+  height:70vh;
   background-color: white;
   margin-left: 130px;
   position: relative;
-  top:-47px;
+  top:50px;
 }
 .us{
   padding-top: 50px;
@@ -127,14 +127,15 @@ p{
    font-size: 14px;
   margin-left: 40px;
    margin-right: 50px;
+   color:#313131;
 }
 .columns{
-  margin-top:70px;
+  margin-top:130px;
   margin-left:130px;
 }
 .columns h2{
   color:white;
-  font-family: "DIN-BOLD";
+  font-family: "DIN";
   font-size: 30px;
 }
 .cat-flex{
@@ -162,13 +163,13 @@ p{
 padding-top: 40px;
 padding-left: 20px;
 text-align: left;
-font-family: "DIN-BOLD"; 
-
+font-family: "DIN"; 
+color:#222531;
 }
 
 .p1 p{
 margin-left: 20px;
-font-size: 19px;
+font-size: 17px;
 padding-top: 30px;
 
 }
@@ -177,7 +178,12 @@ padding-top: 30px;
   width:300px;
   border: 3px solid white;
 }
-
+.product{
+ 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 .bt1{
   width:190px;
   height:40px;
@@ -186,14 +192,12 @@ padding-top: 30px;
   border-radius: 4px;
   border:2px solid white; 
   margin-top: 40px;
-  align-items: center;
-  margin-left: 530px;
-  font-family: "DIN-BOLD"; 
-  font-size: 25px;
+  font-family: "DIN"; 
+  font-size: 20px;
 }
 .last{
   background-color: #3E4758;
-  height:30vh;
+  height:40vh;
 }
 .ft{
   
@@ -211,13 +215,13 @@ padding-top: 30px;
 .text{
   width:100%;
   height:9vh;
-  font-family: "DIN-BOLD"; 
+  font-family: "DIN"; 
 }
 .office{
   margin-left: 130px;
   padding-top: 10px;
-  font-family: "DIN-BOLD"; 
-  font-size: 20px;
+  font-family: "DIN"; 
+  font-size: 15px;
 }
 .sec1{
 
@@ -236,27 +240,73 @@ padding-top: 30px;
 
 .sec1{
   width:100%;
-  
+  overflow: hidden;
  
 }
+.sec2{
+  width:100%;
+  overflow: hidden;
+ 
+}
+.sec3{
+  width:100%;
+  overflow: hidden;
+ 
+}
+
 .bg1{
   width:100%;
   height:100%;
+  
+}
+.classic{
+  
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-10%,-50%);
+  top:70%;
+ left: 42%;
+ 
+ width:35%;
+ height:30%;
+ background: #fffbfb79;
+ border-color: #fffbfb25;
+ color:#050505;
+ font-family: "DIN";
+ 
+ 
+}
+.gold{
+  
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-10%,-50%);
+  top:190%;
+ left: 42%;
+ 
+ width:35%;
+ height:30%;
+ background: #fffbfb79;
+ border-color: #fffbfb25;
+ color:#050505;
+ font-family: "DIN";
+ 
+ 
 }
 .platinum{
   
   text-transform: uppercase;
   position: absolute;
   transform: translate(-10%,-50%);
-  top:300%;
+  top:330%;
  left: 42%;
  
  width:35%;
  height:30%;
- background: #fffbfb27;
+ background: #fffbfb79;
  border-color: #fffbfb25;
  color:#050505;
- font-family: "DIN-BOLD";
+ font-family: "DIN";
 
  
 }
@@ -266,17 +316,19 @@ padding-top: 30px;
 .name{
   position: absolute;
   padding-top: 40px;
+  font-family: "DIN";
 }
 .name h2{
   padding-left:190px;
   font-size: 40px;
+  font-family: "DIN";
 }
 .name p{
  
   text-align: left;
-  padding-left: 90px;
+  padding-left: 70px;
   font-size: 20px;
-  
+  font-family: "DIN";
 }
 .logo3 img{
   width:150px;
@@ -286,11 +338,13 @@ padding-top: 30px;
 }
 
 /* Mobile view */
-@media (min-width: 300px) and (max-width:500px){
+@media (min-width: 375px) and (max-width:500px){
+
+ 
   .brand 
         {  
            display: flex;    
-           margin-left: 0px;
+           margin-left: 30px;
            
           }
           .brand img{
@@ -298,43 +352,52 @@ padding-top: 30px;
           }
   .nav-wrapper ul.nav-list li 
   {   
-     margin-left:-70px;   
+     margin-left:-10px;   
       margin-top: 10px;
        position: relative;
-       font-size: 11px;
+       font-size: 20px;
   }
   .header{
     height:32vh;
   }
   video{
    margin-top: 20px;
-    width:65%;
-   top:0;
+    width:100%;
+    top:0;
     height:auto;
+    margin-bottom: 90px;
 } 
-.container1{
+.slide{
   padding-top: 10px;
   height:60vh;
+  position: relative;
+  
+}
+.slide{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  
 }
   .heading h2{
-    padding-top:120px;
-  margin-left: 10px;
-   font-size: 19px;
+    
+    padding-top:10px;
+    margin-left: 40px;
+   font-size: 24px;
   }
-  h4{
-    font-size: 19px;
-    margin-left: 10px;
+  .heading h4{
+    font-size: 22px;
+    margin-left: 40px;
   }
   p{
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 40px;
   }
 
   .about{
-    width:240px;
-    height:540px;
-   
-    margin-left: 10px;
+    width:360px;
+    height:380px;
+    margin-left: 40px;
     position: relative;
     top:-47px;
   }
@@ -347,23 +410,26 @@ padding-top: 30px;
     font-size: 11px;
   } 
   .background{
-    height:1700px;
+    height:1500px;
   }
   .columns{
     margin-top:70px;
-    margin-left:10px;
+    margin-left:40px;
     
   }
   .columns h2{
     color:white;
-    font-size: 19px;
+    font-size: 24px;
   }
 
   .cat-flex{
     display: block;
     margin-top: 30px;
     height:300px;
-    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 65px;
   }
   .cat-item{
     
@@ -390,7 +456,7 @@ padding-top: 30px;
   }
   .last{
     height:400px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .ft{
   
@@ -402,7 +468,461 @@ padding-top: 30px;
   .office{
     margin-right: 120px;
     margin-left: 20px;
-    font-size: 11px;
+    font-size: 15px;
+  }
+
+  .sec1{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+  }
+  .sec2{
+    overflow: hidden;
+  }
+  .sec3{
+    overflow: hidden;
+  }
+  .bg1{
+    width:100%;
+    height:100%;
+    
+  }
+  .classic{
+    transform: translate(-50%,-50%);
+    top:60%;
+    left: 50%;
+    width:90%; 
+    
+  }
+  .gold{
+    
+   
+  transform: translate(-50%,-50%);
+  top:195%;
+   left: 50%;
+   width:90%;
+   height:30%;
+   
+   }
+  .platinum{
+    transform: translate(-50%,-50%);
+    top:320%;
+    left:50%;
+    width:90%;
+    height:30%;
+    
+  }
+ 
+  .name{
+    position: absolute;
+    padding-top: 30px;
+  }
+  .name h2{
+    padding-left:150px;
+    font-size: 40px;
+  }
+  .name p{
+   
+    text-align: left;
+    padding-left: 120px;
+    font-size: 20px;
+    
+  }
+  .logo3 img{
+    width:110px;
+    text-align: left;
+    padding-top:20px;
+    padding-left: 10px;
   }
 }
+
+@media (min-width:501px) and (max-width:765px){
+  html body{
+    overflow-x: hidden;
+  }
+  .brand 
+  {  
+     display: flex;    
+     margin-left: 40px;
+     
+    }
+    .brand img{
+      width:150px;
+    }
+.nav-wrapper ul.nav-list li 
+{   
+margin-left:80px;   
+margin-top: 10px;
+ position: relative;
+ font-size: 20px;
+}
+.header{
+height:32vh;
+}
+video{
+margin-top: 20px;
+width:100%;
+top:0;
+
+} 
+.container1{
+padding-top: 160px;
+height:90vh;
+}
+.heading h2{
+padding-top:120px;
+margin-left: 40px;
+font-size: 28px;
+}
+h4{
+font-size: 24px;
+margin-left: 40px;
+}
+p{
+font-size: 20px;
+margin-left: 40px;
+}
+
+.about{
+width:520px;
+height:380px;
+margin-left: 40px;
+position: relative;
+top:-47px;
+}
+
+.us h2{
+color:#82A1AF;
+font-size: 19px;
+}
+.par p{
+font-size: 13px;
+} 
+.background{
+height:1500px;
+}
+.columns{
+margin-top:70px;
+margin-left:40px;
+
+}
+.columns h2{
+color:white;
+font-size: 24px;
+}
+
+.cat-flex{
+display: block;
+margin-top: 30px;
+height:300px;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 150px;
+}
+.cat-item{
+
+text-align: left;
+padding-left: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+}
+.cat1{
+width:250px;
+}
+.cat-text{
+padding-top: 40px;
+padding-left: 20px;
+text-align: left;
+font-size: 15px;
+}
+.p1 p{
+font-size: 12px;
+}
+.bt1{
+margin-left:40px;
+margin-top: 590px;
+}
+.last{
+height:400px;
+font-size: 16px;
+
+}
+.ft{
+
+display:block;
+margin-left: 70px;
+padding-top:50px;
+margin-right: 20px;
+}
+.office{
+margin-right: 120px;
+margin-left: 50px;
+font-size: 15px;
+}
+
+.sec1{
+  width:100%;
+  height:100%;
+}
+
+.bg1{
+  width:100%;
+  height:100%;
   
+}
+.classic{
+  transform: translate(-50%,-50%);
+  top:60%;
+  left: 50%;
+  width:90%; 
+  
+}
+.gold{
+  
+ 
+transform: translate(-50%,-50%);
+top:195%;
+ left: 50%;
+ width:90%;
+ height:30%;
+ 
+ }
+.platinum{
+  transform: translate(-50%,-50%);
+  top:320%;
+  left:50%;
+  width:90%;
+  height:30%;
+  
+}
+
+.name{
+  position: absolute;
+  padding-top: 30px;
+}
+.name h2{
+  padding-left:150px;
+  font-size: 40px;
+}
+.name p{
+ 
+  text-align: left;
+  padding-left: 120px;
+  font-size: 20px;
+  
+}
+.logo3 img{
+  width:110px;
+  text-align: left;
+  padding-top:20px;
+  padding-left: 10px;
+}
+}
+@media (min-width:765px) and (max-width:1200px){
+  body{
+    overflow-x: hidden;
+  }
+  .brand 
+  {  
+     display: flex;    
+     margin-left: 70px;
+     
+    }
+    .brand img{
+      width:200px;
+    }
+.nav-wrapper ul.nav-list li 
+{   
+margin-left:190px;   
+margin-top: 10px;
+ position: relative;
+ font-size: 20px;
+}
+.header{
+height:32vh;
+}
+video{
+margin-top: 20px;
+width:100%;
+top:0;
+
+} 
+.container1{
+margin-top: 140px;
+height:90vh;
+}
+.heading h2{
+padding-top:120px;
+margin-left: 40px;
+font-size: 28px;
+}
+h4{
+font-size: 24px;
+margin-left: 40px;
+}
+p{
+font-size: 20px;
+margin-left: 40px;
+}
+
+.about{
+width:720px;
+height:380px;
+margin-left: 40px;
+position: relative;
+top:-47px;
+}
+
+.us h2{
+color:#82A1AF;
+font-size: 28px;
+}
+.par p{
+font-size: 15px;
+} 
+.background{
+height:1000px;
+}
+.columns{
+margin-top:70px;
+margin-left:40px;
+
+}
+.columns h2{
+color:white;
+font-size: 24px;
+}
+
+.cat-flex{
+display: flex;
+margin-top: 90px;
+height:300px;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 720px;
+justify-content: space-between;
+}
+.cat-item{
+
+text-align: left;
+padding-left: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+
+}
+.cat1{
+width:250px;
+}
+.cat-text{
+padding-top: 40px;
+padding-left: 20px;
+text-align: left;
+font-size: 15px;
+}
+.p1 p{
+font-size: 12px;
+}
+.bt1{
+margin-left:40px;
+margin-top: 60px;
+}
+.last{
+height:400px;
+font-size: 16px;
+
+}
+.ft{
+
+display:flex;
+margin-left: 30px;
+padding-top:50px;
+margin-right: 20px;
+}
+.office{
+margin-right: 120px;
+margin-left: 50px;
+font-size: 15px;
+}
+
+.classic{
+  
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-10%,-50%);
+  top:65%;
+ left: 42%;
+ 
+ width:50%;
+ height:30%;
+ background: #fffbfb79;
+ border-color: #fffbfb25;
+ color:#050505;
+ font-family: "DIN";
+ 
+ 
+}
+.gold{
+  
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-10%,-50%);
+  top:175%;
+ left: 42%;
+ 
+ width:50%;
+ height:30%;
+ background: #fffbfb79;
+ border-color: #fffbfb25;
+ color:#050505;
+ font-family: "DIN";
+ 
+ 
+}
+.platinum{
+  
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-10%,-50%);
+  top:300%;
+ left: 42%;
+ 
+ width:50%;
+ height:30%;
+ background: #fffbfb79;
+ border-color: #fffbfb25;
+ color:#050505;
+ font-family: "DIN";
+
+ 
+}
+.main{
+  display:flex;
+}
+.name{
+  position: absolute;
+  padding-top: 40px;
+  font-family: "DIN";
+}
+.name h2{
+  padding-left:190px;
+  font-size: 40px;
+  font-family: "DIN";
+}
+.name p{
+ 
+  text-align: left;
+  padding-left: 150px;
+  font-size: 20px;
+  font-family: "DIN";
+}
+.logo3 img{
+  width:150px;
+  text-align: left;
+  padding-top:20px;
+  padding-left: 30px;
+}
+
+}
+
