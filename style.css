@@ -15,7 +15,7 @@
       width:100%;
       height:100%;
       font-family: "DIN";
-    
+      
     }
   
       .container 
@@ -66,7 +66,7 @@
 .header{
   background-color: #F3F3F3;
   width:100%;
-  height:100vh;
+  height:auto;
 }     
 video{
    
@@ -74,18 +74,29 @@ video{
     top:auto;
     height:auto;
 }   
+
 .container1{
+  
   width:100%;
-  height:90vh;
-  position: relative;
-  margin-top: -5%;
-  background:url("/jpg/Puzzal\ Hand\ \(1\)\ \(1\).jpg");
-  background-repeat: no-repeat;
+  height:60vh;
+  background-color: #AAC5D0;
+  margin-top: -20px;
+ position: relative;
+}
+.hand{
+  float:right;
+  margin-top: -17%;
+  padding-right: 70px;
   
 }
-
+.hand img{ 
+  width:47%;
+  justify-content: right;
+  float: right;
+  margin-left: 90%;
+}
 .heading h2{
-padding-top:120px;
+padding-top:110px;
 margin-left: 130px;
 font-family: "DIN"; 
 font-size: 35px;
@@ -108,25 +119,28 @@ p{
 .background{
   background-color:#7A95B3;
   width:100%;
-  height:970px;
-  margin-top: -11%;
+  height:auto;
+  margin-top: -4%;
 }
 .about{
-  width:70%;
-  height:40%;
+  width:60%;
+  height: auto;
   background-color: white;
   margin: auto;
   position: relative;
-  top:-20px;
+
+  
 }
 .us{
-  padding-top: 50px;
-  padding-left: 40px;
+  padding-top: -90px;
+  
   font-size: 25px;
+  padding-left: 40px;
 }
 .us h2{
   color:#82A1AF;
   font-family: "DIN"; 
+  padding-top: 20px;
 }
 .par p{
    padding-top:30px;
@@ -135,10 +149,11 @@ p{
   margin-left: 40px;
    margin-right: 50px;
    color:#313131;
+   padding-bottom: 50px;
 }
 .columns{
-  margin-top:80px;
-  margin-left:130px;
+  margin-left: 130px;
+  margin-top: 90px;
 }
 .columns h2{
   color:white;
@@ -148,7 +163,7 @@ p{
 .cat-flex{
   display: flex;
   margin-top: 30px;
-  
+  justify-content: center;
   border-radius: 5px solid white;
   justify-content: space-between;
   margin-right: 130px;
@@ -198,13 +213,14 @@ padding-top: 30px;
   color:white;
   border-radius: 4px;
   border:2px solid white; 
-  margin-top: 40px;
+  margin:50px auto;
   font-family: "DIN"; 
   font-size: 20px;
 }
 .last{
   background-color: #3E4758;
-  height:40vh;
+  height:auto;
+  padding-bottom: 40px;
 }
 .ft{
   
@@ -230,638 +246,552 @@ padding-top: 30px;
   font-family: "DIN"; 
   font-size: 18px;
 }
-.sec1{
-
-  width:100%;
-  height:100vh;
-}
-.first-bg{
-  width:100%
-}
-.button1{
-  width:100px;
-}
-
 
 /* Franchise page */
 
 .sec1{
-  width:100%;
-  overflow: hidden;
- 
-}
-.sec2{
-  width:100%;
-  overflow: hidden;
- 
-}
-.sec3{
-  width:100%;
-  overflow: hidden;
- 
-}
-
-.bg1{
-  width:100%;
-  height:100%;
-  
-}
-.classic{
-  
-  text-transform: uppercase;
-  position: absolute;
-  transform: translate(-10%,-50%);
-  top:63%;
- left: 35%;
- 
- width:35%;
- height:30%;
- background: #fffbfb79;
- border-color: #fffbfb25;
- color:#050505;
- font-family: "DIN";
- 
- 
-}
-.gold{
-  
-  text-transform: uppercase;
-  position: absolute;
-  transform: translate(-10%,-50%);
-  top:175%;
- left: 35%;
- 
- width:35%;
- height:30%;
- background: #fffbfb79;
- border-color: #fffbfb25;
- color:#050505;
- font-family: "DIN";
- 
- 
-}
-.platinum{
-  
-  text-transform: uppercase;
-  position: absolute;
-  transform: translate(-10%,-50%);
-  top:300%;
- left: 35%;
- 
- width:35%;
- height:30%;
- background: #fffbfb79;
- border-color: #fffbfb25;
- color:#050505;
- font-family: "DIN";
-
- 
-}
-.main{
-  display:flex;
-}
-.name{
-  position: absolute;
-  padding-top: 40px;
-  font-family: "DIN";
-}
-.name h2{
-  padding-left:190px;
-  font-size: 40px;
-  font-family: "DIN";
-}
-.name p{
- 
-  text-align: left;
-  padding-left: 70px;
-  font-size: 20px;
-  font-family: "DIN";
-}
-.logo3 img{
-  width:150px;
-  text-align: left;
-  padding-top:20px;
-  padding-left: 30px;
-}
-
-/* Mobile view */
-@media (min-width: 375px) and (max-width:500px){
-  html body{
-    overflow-x: hidden;
-  }
- 
-  .brand 
-        {  
-           display: flex;    
-           margin-left: 40px;
-           
-          }
-          .brand img{
-            width:170px;
-          }
- 
-  .header{
-    height:32vh;
-  }
-  video{
-   
-    width: 510px;
-   top:0;
-    height:auto;
-    
-} 
-.container1{
-  top: -40px;
-  height:60vh;
-  width: 510px;
-}
-  .heading h2{
-    margin: auto;
-    margin-left: 10%;
-   font-size: 24px;
-  }
-  h4{
-    font-size: 22px;
-    margin-left: 10%;
-  }
-  p{
-    font-size: 18px;
-    margin-left: 10%;
-  }
-
-  .about{
-    padding-bottom: 10%;
-    height:auto;
-    top:auto;
-  }
- 
-  .us h2{
-    color:#82A1AF;
-    font-size: 19px;
-  }
-  .par p{
-    font-size: 11px;
-  } 
-  .background{
-    height:1500px;
-    width:fit-content
-  }
-  .columns{
-    
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-  }
-  .columns h2{
-    color:white;
-    font-size: 24px;
-    text-align: left;
-    
-  }
-
-  .cat-flex{
-    display: inline-block;
-    margin-top: 30px;
-    height:300px;
-   
-    
-  }
-  .cat-item{
-    
-    text-align: left;
-    
-    padding-bottom: 30px;
-  }
-  .cat1{
-    width:250px;
-  }
-  .cat-text{
-  padding-top: 40px;
-  padding-left: 20px;
-  text-align: left;
-  font-size: 15px;
-  }
-  .p1 p{
-    font-size: 12px;
-  }
-  
-  .last{
-    width: 510px;
-    height:400px;
-    font-size: 16px;
-  }
-  .ft{
-   
-    display:block;
-    margin-left: 20px;
-    padding-top:50px;
-    
-  }
-  .text{
-    width: 510px;
-  }
-  .office{
-    
-    margin-left: 20px;
-    font-size: 15px;
-  }
-
-  .sec1{
     width:100%;
-    height:100%;
     overflow: hidden;
+   
   }
   .sec2{
+    width:100%;
     overflow: hidden;
+   
   }
   .sec3{
+    width:100%;
     overflow: hidden;
+   
   }
+  
   .bg1{
     width:100%;
     height:100%;
     
   }
   .classic{
-    transform: translate(-50%,-50%);
-    top:60%;
-    left: 50%;
-    width:90%; 
     
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top:50%;
+    text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  
+    
+   width:35%;
+   height:30%;
+   background: #fffbfb79;
+   border-color: #fffbfb25;
+   color:#050505;
+   font-family: "DIN";
+   
+   
   }
   .gold{
     
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-10%,-50%);
+    top:175%;
+    text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
    
-  transform: translate(-50%,-50%);
-  top:195%;
-   left: 50%;
-   width:90%;
+   width:35%;
    height:30%;
+   background: #fffbfb79;
+   border-color: #fffbfb25;
+   color:#050505;
+   font-family: "DIN";
    
-   }
-  .platinum{
-    transform: translate(-50%,-50%);
-    top:320%;
-    left:50%;
-    width:90%;
-    height:30%;
-    
+   
   }
- 
+  .platinum{
+    
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-10%,-50%);
+    top:300%;
+    text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+   
+   width:35%;
+   height:30%;
+   background: #fffbfb79;
+   border-color: #fffbfb25;
+   color:#050505;
+   font-family: "DIN";
+  
+   
+  }
+  .main{
+    display:flex;
+  }
   .name{
     position: absolute;
-    padding-top: 30px;
+    padding-top: 40px;
+    font-family: "DIN";
   }
   .name h2{
-    padding-left:150px;
+    padding-left:190px;
     font-size: 40px;
+    font-family: "DIN";
   }
   .name p{
    
     text-align: left;
-    padding-left: 120px;
+    padding-left: 70px;
     font-size: 20px;
-    
+    font-family: "DIN";
   }
   .logo3 img{
-    width:110px;
+    width:150px;
     text-align: left;
     padding-top:20px;
-    padding-left: 10px;
+    padding-left: 30px;
   }
-}
+  
 
-@media (min-width:501px) and (max-width:768px){
-  html body{
-    overflow-x: hidden;
-  }
- 
+/* classic page*/
+.bg-img img{
+  width:100%;
+  height:100%;
+}
+.classic-btn{
+  display:block;
+  
+}
+.class-bt1{
+  width:40%;
+  height:30%;
+  background: #fffbfb79;
+  border-color: #fffbfb25;
+  display: flex;
+  position: absolute;
+  margin: auto;
+  top:50%;
+
+}
+.bt1-text{
+   float: left;
+   padding-top: 20px;
+   padding-left: 20px;
+   font-family: "DIN";
+  position:relative;
+
+}
+.bt1-text h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.bt1-text h4{
+  font-size: 20px;
+  text-align: left;
+}
+.bt1-text h6{
+  
+}
+@media ( max-width:475px ){
+    
+    .brand 
+        {   
+              
+           margin-left: 20px;
+           margin-top: 10px;
+          }
     .brand img{
-      width:150px;
+        width:160px;
     }
 
-.header{
-height:32vh;
-}
-video{
-
-width:100%;
-top:0;
-height: auto;
-} 
-.container1{
-  height: 60vh;
-
-}
-.heading h2{
-padding-top:120px;
-margin-left: 40px;
-font-size: 28px;
-}
-h4{
-font-size: 24px;
-margin-left: 40px;
-}
-p{
-font-size: 20px;
-margin-left: 40px;
-}
-
-.about{
-  height:auto;
-position: relative;
-padding-bottom: 10%;
-top:auto;
-}
-
-.us h2{
-color:#82A1AF;
-font-size: 19px;
-}
-.par p{
-font-size: 13px;
-} 
-.background{
-height:1500px;
-}
-.columns{
-
-text-align: center;
-justify-content: center;
-}
-.columns h2{
-color:white;
-font-size: 24px;
-text-align: left;
-
-}
-
-.cat-flex{
-display: inline-block;
-margin-top: 30px;
-height:300px;
-
-}
-.cat-item{
-text-align: left;
-padding-right: 20px;
-padding-bottom: 30px;
-}
-.cat1{
-width:250px;
-}
-.cat-text{
-padding-top: 40px;
-padding-left: 20px;
-text-align: left;
-font-size: 15px;
-}
-.p1 p{
-font-size: 12px;
-}
-.bt1{
-margin-top: 10%;
-}
-.last{
-height:400px;
-font-size: 16px;
-
-}
-.ft{
-
-display:block;
-margin-left: 70px;
-padding-top:50px;
-margin-right: 20px;
-}
-.office{
-margin-right: 120px;
-margin-left: 50px;
-font-size: 15px;
-}
-
-.sec1{
-  width:100%;
-  height:100%;
-}
-
-.bg1{
-  width:100%;
-  height:100%;
+    .container1{
   
-}
-.classic{
-  transform: translate(-50%,-50%);
-  top:60%;
-  left: 50%;
-  width:90%; 
-  
-}
-.gold{
-  
- 
-transform: translate(-50%,-50%);
-top:195%;
- left: 50%;
- width:90%;
- height:30%;
- 
- }
-.platinum{
-  transform: translate(-50%,-50%);
-  top:320%;
-  left:50%;
-  width:90%;
-  height:30%;
-  
-}
+        width:100%;
+        height:40vh;
+        overflow: hidden;
+      }
+      .hand{
+        display: none;  
+      }
+      .heading{
+        margin-left:-70px; 
+      }
+      .heading h2{
+        padding-top:30px;
+        font-size: 25px;
+        }
+        h4{
+          padding-top:10px;
+           
+          font-size: 25px;
+          font-weight:bolder;
+        }
+        p{
+          
+          padding-top:10px;
+          font-size: 17px;
+          
+        }
+        .background{
+           height:1500px;
+        }
+        .about{
+            width:80%;
+        }
+        .us p{
+            font-size: 16px;
+        }
+        .columns{
+            float: left;
+            justify-content: left;
+            text-align: left;
+            margin: 50px 50px;
+          }
+          .columns h2{
+            
+            font-size: 25px;
+          }
+          
+          .cat-flex{
+            display:block;
+            height:300px;
+           
+          }
+          .cat-item{
+              padding-bottom: 20px;
+              margin-bottom: 20px;
+          }
+          .bt1{
+            border:2px solid white; 
+            margin-top: 90%;
+            font-family: "DIN"; 
+            font-size: 20px;
+            float: inline-end;
+          }
+          .last{
+            height:auto;
+            padding-bottom: 40px;
+          }
+          .ft{
+            
+            display:block;
+            margin-left:30px;
+          }
 
-.name{
-  position: absolute;
-  padding-top: 30px;
+          .text{
+            width:100%;
+            height:20vh;
+            
+          }
+          .office{
+            margin-left: 30px;
+          }
+        
 }
-.name h2{
-  padding-left:150px;
-  font-size: 40px;
-}
-.name p{
- 
-  text-align: left;
-  padding-left: 120px;
-  font-size: 20px;
-  
-}
-.logo3 img{
-  width:110px;
-  text-align: left;
-  padding-top:20px;
-  padding-left: 10px;
-}
-}
-@media (min-width:768px) and (max-width:975px){
-  html body{
-    overflow-x: hidden;
-  }
- 
+@media (min-width:475px) and (max-width:765px){
+    .brand 
+        {   
+              
+           margin-left: 20px;
+           margin-top: 10px;
+          }
     .brand img{
-      width:150px;
+        width:160px;
     }
 
-.header{
-height:32vh;
-}
-video{
+    .container1{
+  
+        width:100%;
+        height:40vh;
+        overflow: hidden;
+      }
+      .hand{
+        display: none;  
+      }
+      .heading{
+        margin-left:-70px; 
+      }
+      .heading h2{
+        padding-top:30px;
+        font-size: 25px;
+        }
+        h4{
+          padding-top:10px;
+           
+          font-size: 25px;
+          font-weight:bolder;
+        }
+        p{
+          
+          padding-top:10px;
+          font-size: 17px;
+          
+        }
+        .background{
+           height:1500px; 
+        }
+        .about{
+            width:80%;
+        }
+        .us p{
+            font-size: 16px;
+        }
+        .columns{
+            float: center;
+            justify-content: center;
+            text-align: left;
+            margin-top: 50px;
+          }
+          .columns h2{
+            
+            font-size: 25px;
+          }
+          
+          .cat-flex{
+            display:block;
+            height:300px;
+            text-align: center;
+            justify-content: center;
+            margin:auto;
+            transform: (50,50%);
+          }
+          .cat-item{
+              padding-bottom: 20px;
+              margin-bottom: 20px;
+          }
+          .bt1{
+            border:2px solid white; 
+            margin-top: 90%;
+            margin-bottom:20px;
+            font-family: "DIN"; 
+            font-size: 20px;
+            
+          }
+          .last{
+            height:auto;
+            padding-bottom: 40px;
+          }
+          .ft{
+            
+            display:block;
+            margin-left:30px;
+          }
 
-width:100%;
-top:0;
-height: auto;
-} 
+          .text{
+            width:100%;
+            height:20vh;
+            
+          }
+          .office{
+            margin-left: 30px;
+          }
+        
+
+}
+
+@media ( max-width:940px ){
+    
+    .brand 
+        {   
+              
+           margin-left: 20px;
+           margin-top: 10px;
+          }
+    .brand img{
+        width:160px;
+    }
+
+    .container1{
+  
+        width:100%;
+        height:40vh;
+        overflow: hidden;
+      }
+      .hand{
+        display: none;  
+      }
+      .heading{
+        margin-left:-70px; 
+      }
+      .heading h2{
+        padding-top:30px;
+        font-size: 25px;
+        }
+        h4{
+          padding-top:10px;
+           
+          font-size: 25px;
+          font-weight:bolder;
+        }
+        p{
+          
+          padding-top:10px;
+          font-size: 17px;
+          
+        }
+        .background{
+           height:1500px; 
+        }
+        .about{
+            width:80%;
+        }
+        .us p{
+            font-size: 16px;
+        }
+        .columns{
+            float: center;
+            justify-content: center;
+            text-align: left;
+            margin-top: 50px;
+          }
+          .columns h2{
+            
+            font-size: 25px;
+          }
+          
+          .cat-flex{
+            display:block;
+            height:300px;
+            text-align: center;
+            justify-content: center;
+            margin:auto;
+            transform: (50,50%);
+          }
+          .cat-item{
+              padding-bottom: 20px;
+              margin-bottom: 20px;
+          }
+          .bt1{
+            border:2px solid white; 
+            margin:auto;
+            margin-top:80%;
+            font-family: "DIN"; 
+            font-size: 20px;
+          }
+          .last{
+            height:auto;
+            padding-bottom: 40px;
+          }
+          .ft{
+            
+            display:block;
+            margin-left:30px;
+          }
+
+          .text{
+            width:100%;
+            height:20vh;
+            
+          }
+          .office{
+            margin-left: 30px;
+          }
+        
+}
+
+@media (min-width:945px) and ( max-width:1110px ){
+
+    .brand 
+    {   
+          
+       margin-left: 20px;
+       margin-top: 10px;
+      }
+.brand img{
+    width:160px;
+}
+
 .container1{
-  height: 60vh;
-}
-.heading h2{
-padding-top:120px;
-margin-left: 40px;
-font-size: 28px;
-}
-h4{
-font-size: 24px;
-margin-left: 40px;
-}
-p{
-font-size: 20px;
-margin-left: 40px;
-}
 
-.about{
-  height:auto;
-position: relative;
-padding-bottom: 10%;
-top:5%;
+    width:100%;
+    height:50vh;
+    overflow: hidden;
+  }
+  .hand{
+      
+  }
+  .heading{
+    margin-left:-70px; 
+  }
+  .heading h2{
+    padding-top:30px;
+    font-size: 25px;
+    }
+    h4{
+      padding-top:10px;
+       
+      font-size: 25px;
+      font-weight:bolder;
+    }
+    p{
+      
+      padding-top:10px;
+      font-size: 17px;
+      
+    }
+    .background{
+       height:1000px; 
+    }
+    .about{
+        width:80%;
+    }
+    .us p{
+        font-size: 16px;
+    }
+    .columns{
+        float: center;
+        justify-content: center;
+        text-align: left;
+        margin: 50px 70px;
+      }
+      .columns h2{
+        
+        font-size: 25px;
+      }
+      
+      .cat-flex{
+        display:flex;
+        height:300px;
+        text-align: center;
+        justify-content: center;
+        margin:auto;
+        margin-top: 50px;
+      }
+      .cat-item{
+          padding-bottom: 20px;
+          
+      }
+      .bt1{
+        border:2px solid white; 
+        margin:auto;
+        margin-top:5%;
+        font-family: "DIN"; 
+        font-size: 20px;
+      }
+      .last{
+        height:auto;
+        padding-bottom: 40px;
+      }
+      .ft{
+        
+        display:flex;
+        margin-left:30px;
+      }
 
+      .text{
+        width:100%;
+        height:20vh;
+        
+      }
+      .office{
+        margin-left: 30px;
+      }
 }
-
-.us h2{
-color:#82A1AF;
-font-size: 19px;
-}
-.par p{
-font-size: 13px;
-} 
-.background{
-height:1000px;
-}
-.columns{
-
-text-align: center;
-justify-content: center;
-}
-.columns h2{
-color:white;
-font-size: 24px;
-text-align: left;
-
-}
-
-.cat-flex{
-display: flex;
-margin-top: 30px;
-height:300px;
-
-}
-.cat-item{
-text-align: left;
-padding-right: 20px;
-padding-bottom: 30px;
-
-}
-
-.cat-text{
-padding-top: 40px;
-padding-left: 20px;
-text-align: left;
-font-size: 15px;
-}
-.p1 p{
-font-size: 12px;
-}
-
-.last{
-height:200px;
-font-size: 16px;
-
-}
-.ft{
-
-display:flex;
-margin-left: 70px;
-padding-top:50px;
-margin-right: 20px;
-}
-.office{
-margin-right: 120px;
-margin-left: 50px;
-font-size: 15px;
-}
-
-.sec1{
-  width:100%;
-  height:100%;
-}
-
-.bg1{
-  width:100%;
-  height:100%;
-  
-}
-.classic{
-  transform: translate(-50%,-50%);
-  top:60%;
-  left: 50%;
-  width:90%; 
-  
-}
-.gold{
-  
- 
-transform: translate(-50%,-50%);
-top:195%;
- left: 50%;
- width:90%;
- height:30%;
- 
- }
-.platinum{
-  transform: translate(-50%,-50%);
-  top:320%;
-  left:50%;
-  width:90%;
-  height:30%;
-  
-}
-
-.name{
-  position: absolute;
-  padding-top: 30px;
-}
-.name h2{
-  padding-left:150px;
-  font-size: 40px;
-}
-.name p{
- 
-  text-align: left;
-  padding-left: 120px;
-  font-size: 20px;
-  
-}
-.logo3 img{
-  width:110px;
-  text-align: left;
-  padding-top:20px;
-  padding-left: 10px;
-}
-}
-
+    
